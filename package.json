@@ -1,0 +1,25 @@
+{
+  "name": "pyformat",
+  "version": "1.0.0",
+  "description": "Ultra-fast cross-language text formatting library",
+  "main": "lib/index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "node test/test.js",
+    "build": "node-gyp build"
+  },
+  "keywords": ["formatting", "html", "telegram", "markdown", "text"],
+  "author": "Soumo <telegram.me/maybesoumo>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Timeness/pyformat.git"
+  },
+  "dependencies": {
+    "node-addon-api": "^7.0.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^10.0.0"
+  },
+  "gypfile": true
+}
